@@ -8,46 +8,53 @@ import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 
 import { benefitOne, benefitTwo } from "@/components/data";
+
 export default function Home() {
   return (
     <Container>
       <Hero />
       <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        preTitle="About Truecolors"
+        title="Why Choose Truecolors?"
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        Truecolors is a powerful application that combines real-time color scanning 
+        and the Ishihara test, specifically designed to help individuals with 
+        color blindness. Whether you want to test your color perception or need 
+        accurate color identification, Truecolors provides an all-in-one solution 
+        that is easy to use and highly accurate.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle
-        preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
+        preTitle="Watch a Video"
+        title="Learn How Truecolors Works"
       >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        This section highlights a demo or tutorial video showcasing how to use 
+        the features of Truecolors. From real-time color scanning to conducting 
+        Ishihara tests, you’ll discover how Truecolors can make color analysis 
+        more accessible and accurate for users with varying color perception.
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" />
 
       <SectionTitle
         preTitle="Testimonials"
-        title="Here's what our customers said"
+        title="What Do Our Users Say About Truecolors?"
       >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Hear from users who have benefited from Truecolors to improve their 
+        understanding of color perception and effectively manage tasks that 
+        involve accurate color recognition. Truecolors is trusted by many for 
+        its innovative approach to helping those with color blindness.
       </SectionTitle>
 
       <Testimonials />
 
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+        Address your users’ common questions about Truecolors. From how to use 
+        the app for color scanning to interpreting Ishihara test results, provide 
+        detailed answers to ensure they get the most out of your app.
       </SectionTitle>
 
       <Faq />
